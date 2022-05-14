@@ -1,0 +1,23 @@
+body {
+   text-align: center;
+   background: gray;
+}
+
+h1 {
+   margin: 0;
+}
+
+#serif {
+   width: 100%;
+   height: 42vh;
+   box-sizing: border-box; 
+   padding: 10px;
+   font-size: 1.5rem;
+   background: lightgray;
+}
+
+#send-button {
+   width: 100%;
+   height: 42vh;
+   border-radius: 20px;
+}
