@@ -1,7 +1,7 @@
 "use strict";
 
 // const urlRoot = "http://localhost:20221/api";
-const urlRoot = "https://chacha.llll-ll.com/api";
+const urlRoot = "https://chacha-api.llll-ll.com/api";
 
 const sendClicked = () => {
   const textarea = document.querySelector("#serif");
