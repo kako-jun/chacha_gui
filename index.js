@@ -1,12 +1,12 @@
 "use strict";
 
-// const urlRoot = "http://localhost:20221/api";
+// const urlRoot = "http://localhost/api";
 const urlRoot = "https://chacha-api.llll-ll.com/api";
 
 const sendClicked = () => {
   const textarea = document.querySelector("#serif");
   if (textarea.value !== "") {
-    sendSerif({ text: textarea.value });
+    sendSerif({ message: textarea.value });
     textarea.value = "";
   }
 };
