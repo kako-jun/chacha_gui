@@ -14,7 +14,7 @@ const sendClicked = () => {
 const sendSerif = async (serif) => {
   console.log(serif);
 
-  const url = `${urlRoot}/serifs`;
+  const url = `${urlRoot}/serif`;
   const res = await fetch(url, {
     method: "PUT",
     headers: {
